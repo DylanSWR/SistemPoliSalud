@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import DTO.CitasDTO;
-import DTO.DisponibilidadDTO;
 
 public class CitasDAO extends SQLiteDataHelper implements IDAO<CitasDTO>{
     private Connection connection;
